@@ -1,6 +1,6 @@
 `
 
-O DOM é uma API disponibilizada nos browser que editar o que é mostrado na tela
+O DOM é uma API disponibilizada nos browser que edita o que é mostrado na tela
 
 "Objeto: document"
 
