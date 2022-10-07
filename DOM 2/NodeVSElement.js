@@ -54,8 +54,8 @@
 `Remover nós:`;
 
     Node 
-        .replaceChild()
-        .removeChild()
+        .replaceChild() // Substitui um elemento nó por outro novoFilho velhoFilho
+        .removeChild() // Remove um elemento nó pai
         .remove()
 
 `Criar nós: `;
