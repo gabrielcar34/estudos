@@ -6,4 +6,6 @@ valores.lastIndexOf(5) // Retorna a posição do último elemento que se deseja 
 
 valores.includes(5) // Verifica se o elemento existe dentro do Array.
 
-valores.find((element) => element % 2 == 0) // Retorna a posição do primeiro elemento que atenda a condição descrita.
+valores.find((element) => element % 2 == 0) // Retorna do primeiro elemento que atenda a condição descrita.
+
+valores.findIndex((element) => element % 2 == 0) // Retorna a posição do primeiro elemento que atenda a condição descrita.
