@@ -15,46 +15,58 @@
         .previousElementSibling
 
     Node 
-        .childNodes
-        .children 
-        .firstChild 
-        .firstElementChild
-        .lastChild
-        .lastElementChild
-        .hasChildNodes()
+        .childNodes // Retorna qualquer nó << NodeList >>
+        .children // Retorna apenas nós de elementos << HTMLCollection >>
+        .firstChild // Obter o primeiro filho de um nó
+        .firstElementChild // Obter o primeiro filho do tipo nó element
+        .lastChild // Obter o último filho do nó
+        .lastElementChild // Obter o último filho do tipo nó element
+        .hasChildNodes() // Verifica se o nó possui filhos 
 
 `Adicionar nós: `;
-    ParentNode 
+    Node 
         .prepend()
         .append()
     
     Node 
         .appendChild()
         .insertBefore()
-        .cloneNode()
+        .cloneNode() // Clonar um nó qualquer
 
-    ChildNode 
-        .after()
-        .before()
+    Node
+        .after() // Da pra passar vários valores como parâmetro
+        .before() // Da pra passar vários valores como parâmetro
     
     Element 
         .insertAdjacentElement()
-        .inserAdjacentHTML()
+            `
+                Valores de posições para o InsertAdjacentHTML: beforebegin, afterbegin, beforeend, afterend;
+            `
+        .insertAdjacentHTML() 
+            `
+                Valores de posições para o InsertAdjacentHTML: beforebegin, afterbegin, beforeend, afterend;
+            `
         .insertAdjacentText()
+            `
+            Valores de posições para o InsertAdjacentText: beforebegin, afterbegin, beforeend, afterend;
+            `
 
 `Remover nós:`;
 
     Node 
         .replaceChild()
         .removeChild()
-    
-    ChildNode 
         .remove()
 
 `Criar nós: `;
 
     document 
-        .createElement()
-        .createAttribute()
+        .createElement() // Criar nó element
+        .createAttribute() // Criar um nó atributo
         .createTextNode()
         .write()
+
+`Setar e obter atributo`;
+    Node 
+        .setAttributeNode("atributo Node criado com createAttribute") // Setar Atributo
+        .setAttribute("atributo", "valor") // Setar Atributo
