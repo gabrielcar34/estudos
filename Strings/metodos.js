@@ -52,3 +52,7 @@
 
 
 "Gabriel Cardoso".split() // Divide uma String com base em um caracter
+
+"".at()
+"".concat()
+"".repeat()
