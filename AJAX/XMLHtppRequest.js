@@ -87,6 +87,6 @@ xhr.onreadystatechange = function(){ // Ela é executada sempre que há uma alte
             console.log(JSON.parse(xhr.responseText))
         }
     }
+}	
 
-}
 

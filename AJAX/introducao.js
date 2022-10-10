@@ -48,3 +48,4 @@
             OPTIONS - Permitir acesso de domínios diferentes
 
 `;
+

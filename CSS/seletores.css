@@ -1,0 +1,34 @@
+
+/* Seletores gerais de irmãos */
+
+    /*Irá corresponder a todo elemento <span> que seguir um elemento <p> dentro de um mesmo elemento pai */
+
+p ~ span { 
+    color: red;
+}
+
+
+/* Seletores de irmãos adjacents */
+
+    /* Irá corresponder a qualquer elemento li que segue imediatamente após um elemento ul*/
+
+ul + li { 
+    color: pink;
+}
+
+/* Seletor de filhos */
+
+    /* Irá corresponder a todo elemento <li> que estiver diretamente dentro de um elemento <ul> especificado.*/
+
+ul > li {
+    color: black;
+}
+
+
+/* Seletor de descendentes */
+
+    /*<< div span>> irá corresponder a todo e qualquer elemento <span> que estiver dentro do elemento <div>.*/
+
+ul li {
+    color: silver;
+}
