@@ -27,3 +27,6 @@ type MyType = (x: number, y: number) => number;
 
 
 const fnc3: MyType = (x, y) => x + y;
+
+
+export default 2;
