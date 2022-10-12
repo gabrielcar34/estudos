@@ -22,6 +22,11 @@
         npx tsc --init // Para abrir as configurações do TypeScript.
 
         npx tsc -w // Ativar o modo watched
+
+    
+    Executar o TypesScript direto do terminal:
+
+        npm i ts-node -D
 `;
 
 
