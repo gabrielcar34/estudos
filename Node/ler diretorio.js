@@ -37,6 +37,11 @@ fs.readFile("banner.jpg", (error, data) => {
 });
 
 
+"Verifica se o arquivo ou diretório existe"
+
+fs.existsSync();
+
+
 "Path";
 
 const path = require("path") // Módulo bastante utilizado para manipular caminhos
