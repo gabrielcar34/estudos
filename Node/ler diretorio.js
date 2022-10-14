@@ -48,3 +48,12 @@ path.basename(__filename) // Retorna o nome do arquivo sem o caminho completo.
 __filename // Caminho até o arquivo, está na mesma hierarquia do global
 
 __dirname // Caminho até o diretório, está na mesma hierarquia do global
+
+"Contenar diretório"
+
+path.join(__dirname, "static", rota);
+
+
+"Ver extensao do arquivo"
+
+path.join.extname(rota);
