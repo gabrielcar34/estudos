@@ -33,3 +33,10 @@ server.createServer((req, res) => {
 
 
 console.log("Servidor aberto na porta http://localhost:" + PORT);
+
+
+"Propriedades do objeto req";
+
+req.method // Exibe o método de envio
+req.on("data"); // Recupera os dados
+req.on("end");
